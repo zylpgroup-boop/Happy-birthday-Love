@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Shreyo ❤️</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Noto+Serif+Bengali:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:linear-gradient(135deg,#ff9ec4,#ffd6e8,#fff0f5);
+overflow-x:hidden;
+}
+
+.hearts span{
+position:fixed;
+bottom:-60px;
+font-size:30px;
+animation:float 10s linear infinite;
+color:#ff2d75;
+z-index:-1;
+}
+
+@keyframes float{
+0%{
+transform:translateY(0) rotate(0deg);
+opacity:0;
+}
+20%{opacity:1;}
+100%{
+transform:translateY(-120vh) rotate(360deg);
+opacity:0;
+}
+}
+
+.container{
+max-width:900px;
+margin:40px auto;
+padding:35px;
+background:rgba(255,255,255,.88);
+border-radius:25px;
+backdrop-filter:blur(10px);
+box-shadow:0 15px 40px rgba(0,0,0,.25);
+text-align:center;
+}
+
+h1{
+font-size:48px;
+color:#ff0066;
+margin-bottom:10px;
+animation:glow 2s infinite alternate;
+}
+
+@keyframes glow{
+from{text-shadow:0 0 10px pink;}
+to{text-shadow:0 0 25px red;}
+}
+
+h2{
+font-size:30px;
+color:#ff4081;
+margin-bottom:20px;
+}
+
+.photo-frame{
+display:flex;
+justify-content:center;
+margin:25px 0;
+}
+
+.photo-frame img{
+width:260px;
+height:260px;
+object-fit:cover;
+border-radius:50%;
+border:8px solid white;
+box-shadow:0 0 20px #ff4081,
+0 0 45px rgba(255,0,102,.4);
+animation:pulse 2s infinite;
+transition:.5s;
+}
+
+.photo-frame img:hover{
+transform:scale(1.05);
+}
+
+@keyframes pulse{
+50%{
+transform:scale(1.03);
+}
+}
+
+.poem{
+font-family:'Noto Serif Bengali',serif;
+font-size:22px;
+line-height:2;
+color:#4b004b;
+white-space:pre-line;
+margin-top:20px;
+}
+
+button{
+margin-top:30px;
+padding:15px 35px;
+font-size:18px;
+border:none;
+border-radius:50px;
+background:#ff0066;
+color:white;
+cursor:pointer;
+transition:.4s;
+}
+
+button:hover{
+background:#d1005d;
+transform:scale(1.08);
+}
+
+#msg{
+display:none;
+margin-top:25px;
+font-size:24px;
+color:#ff0066;
+font-weight:bold;
+animation:fade 1s;
+}
+
+@keyframes fade{
+from{opacity:0;}
+to{opacity:1;}
+}
+
+.footer{
+margin-top:40px;
+font-size:22px;
+font-weight:bold;
+color:#d1005d;
+}
+
+audio{
+display:none;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="hearts">
+<span style="left:5%;animation-delay:0s;">❤️</span>
+<span style="left:15%;animation-delay:1s;">💕</span>
+<span style="left:25%;animation-delay:2s;">💖</span>
+<span style="left:35%;animation-delay:3s;">❤️</span>
+<span style="left:45%;animation-delay:4s;">💗</span>
+<span style="left:55%;animation-delay:5s;">💕</span>
+<span style="left:65%;animation-delay:2s;">💖</span>
+<span style="left:75%;animation-delay:6s;">❤️</span>
+<span style="left:85%;animation-delay:3s;">💞</span>
+<span style="left:95%;animation-delay:1s;">❤️</span>
+</div>
+
+<div class="container">
+
+<h1>🎂 Happy Birthday 🎂</h1>
+
+<h2>❤️ Shreyo ❤️</h2>
+
+<div class="photo-frame">
+<img src="shreyosee.jpg" alt="Shreyo">
+</div>
+
+<div class="poem">
+
+আজি এলো মহা খুশির লগন,
+দুই শূন্য শূন্য সাত সালে—
+আজি তুমি নিলে মানব জনম,
+বৃষ্টি হয়ে নামলে ঘন বর্ষার দিনে।
+
+সময় সকাল আটটা পাঁচ,
+দিন ছিল বৃহস্পতিবার,
+তোমায় না লাগুক দুখের আঁচ,
+প্রাণসখী বন্ধু হে আমার।
+
+ভরা শ্রাবণ,
+মেঘের গর্জন,
+তারিখ নয়,
+জনম হয়—
+শ্রেয় তব,
+প্রিয় মম।
+
+রাশি পেলে বৃশ্চিক,
+গণ তোমার রাক্ষস,
+তবু নিজ গুণে ঠিক,
+কাটিয়ে ভাগ্য দোষ,
+হলে তুমি দেবী সম,
+ধ্রুবতারা জীবনাকাশে মম।
+
+ধন্য হলো ধরিত্রী!
+ধন্য জন্মদাত্রী!
+ধন্য তব পিতা!
+তুমি মম মিতা।
+
+তোমা বিরহে মম,
+জীবন মরণসম,
+তবু আজি শুভ দিনে,
+চাহিব প্রাণপণে—
+আমার আয়ু যেন,
+যায় তব ভালে।
+
+সুখে থেকো তুমি,
+তাতেই খুশি আমি।
+সারা জীবন ধরে,
+থাকিব তোমারই।
+তুমিই প্রাণ-ভ্রমরা আমারই।
+
+🎉 Happy Birthday, Shreyo! 🎉
+
+</div>
+
+<button onclick="wish()">💝 Click For Surprise 💝</button>
+
+<div id="msg">
+💖 Forever Yours, Swarno 💖
+</div>
+
+<div class="footer">
+Made with ❤️ by <br>
+<b>Swarno</b>
+</div>
+
+</div>
+
+<audio autoplay loop>
+<source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+function wish(){
+document.getElementById("msg").style.display="block";
+
+alert("🎂 Happy Birthday Shreyo ❤️\n\nMay your life always be filled with happiness, love and success. 💖");
+}
+</script>
+
+</body>
+</html>
