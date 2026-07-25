@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Shreyosee ❤️</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Noto+Serif+Bengali:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:linear-gradient(135deg,#ff9ec4,#ffd6e8,#fff0f5);
+overflow-x:hidden;
+}
+
+.hearts{
+position:fixed;
+width:100%;
+height:100%;
+top:0;
+left:0;
+overflow:hidden;
+z-index:-1;
+}
+
+.hearts span{
+position:absolute;
+bottom:-50px;
+font-size:25px;
+animation:float 8s linear infinite;
+color:#ff2d75;
+}
+
+@keyframes float{
+0%{transform:translateY(0) rotate(0deg);opacity:0;}
+20%{opacity:1;}
+100%{transform:translateY(-120vh) rotate(360deg);opacity:0;}
+}
+
+.container{
+max-width:900px;
+margin:50px auto;
+background:rgba(255,255,255,.85);
+padding:40px;
+border-radius:25px;
+box-shadow:0 15px 40px rgba(0,0,0,.25);
+backdrop-filter:blur(10px);
+text-align:center;
+}
+
+h1{
+font-size:45px;
+color:#e6005c;
+margin-bottom:10px;
+}
+
+h2{
+font-size:28px;
+color:#ff4081;
+margin-bottom:20px;
+}
+
+img{
+width:220px;
+height:220px;
+border-radius:50%;
+border:6px solid #ff4081;
+object-fit:cover;
+margin:20px auto;
+box-shadow:0 10px 25px rgba(0,0,0,.3);
+}
+
+.poem{
+margin-top:30px;
+font-family:'Noto Serif Bengali',serif;
+font-size:23px;
+line-height:2;
+color:#4b004b;
+white-space:pre-line;
+}
+
+.footer{
+margin-top:40px;
+font-size:22px;
+font-weight:bold;
+color:#d1005d;
+}
+
+button{
+margin-top:30px;
+padding:15px 35px;
+font-size:18px;
+border:none;
+border-radius:50px;
+background:#ff0066;
+color:white;
+cursor:pointer;
+transition:.4s;
+}
+
+button:hover{
+background:#c4004d;
+transform:scale(1.08);
+}
+
+#msg{
+margin-top:20px;
+font-size:24px;
+font-weight:bold;
+color:#ff0066;
+display:none;
+animation:fade 1s;
+}
+
+@keyframes fade{
+from{opacity:0;}
+to{opacity:1;}
+}
+
+audio{
+display:none;
+}
+</style>
+
+</head>
+<body>
+
+<div class="hearts">
+<span style="left:5%;animation-delay:0s;">❤️</span>
+<span style="left:15%;animation-delay:2s;">💕</span>
+<span style="left:25%;animation-delay:1s;">❤️</span>
+<span style="left:35%;animation-delay:3s;">💖</span>
+<span style="left:45%;animation-delay:5s;">❤️</span>
+<span style="left:55%;animation-delay:2s;">💗</span>
+<span style="left:65%;animation-delay:4s;">❤️</span>
+<span style="left:75%;animation-delay:6s;">💕</span>
+<span style="left:85%;animation-delay:1s;">💖</span>
+<span style="left:95%;animation-delay:3s;">❤️</span>
+</div>
+
+<div class="container">
+
+<h1>🎂 Happy Birthday 🎂</h1>
+
+<h2>❤️ Shreyosee Das ❤️</h2>
+
+<img src="your-photo.jpg" alt="Shreyosee">
+
+<div class="poem">
+
+আজি এলো মহা খুশির লগন,
+দুই শূন্য শূন্য সাত সালে-
+আজি তুমি নিলে মানব জনম,
+বৃষ্টি হয়ে নামলে ঘন বর্ষার দিনে।
+
+সময় সকাল আটটা পাঁচ,
+দিন ছিল বৃহস্পতিবার,
+তোমায় না লাগুক দুখের আঁচ,
+প্রাণসখী বন্ধু হে আমার।
+
+ভরা শ্রাবণ,
+মেঘের গর্জন,
+তারিখ নয়,
+জনম হয়—
+শ্রেয় তব,
+প্রিয় মম।
+
+রাশি পেলে বৃশ্চিক,
+গণ তোমার রাক্ষস,
+তবু নিজ গুণে ঠিক,
+কাটিয়ে ভাগ্য দোষ,
+হলে তুমি দেবী সম,
+ধ্রুবতারা জীবনাকাশে মম।
+
+ধন্য হলো ধরিত্রী!
+ধন্য জন্মদাত্রী!
+ধন্য তব পিতা!
+তুমি মম মিতা।
+
+তোমা বিরহে মম,
+জীবন মরণসম,
+তবু আজি শুভ দিনে,
+চাহিব প্রাণপণে—
+আমার আয়ু যেন,
+যায় তব ভালে।
+
+সুখে থেকো তুমি,
+তাতেই খুশি আমি।
+সারা জীবন ধরে,
+থাকিব তোমারই।
+তুমিই প্রাণ-ভ্রমরা আমারই।
+</div>
+
+<button onclick="wish()">Click For Surprise ❤️</button>
+
+<div id="msg">
+💖 Forever Yours, Swarnodeep 💖
+</div>
+
+<div class="footer">
+Made with ❤️ by <br>
+<b>Swarnodeep</b>
+</div>
+
+</div>
+
+<audio autoplay loop>
+<source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+function wish(){
+document.getElementById("msg").style.display="block";
+alert("Happy Birthday Shreyosee ❤️🎂\nMay all your dreams come true!");
+}
+</script>
+
+</body>
+</html>
